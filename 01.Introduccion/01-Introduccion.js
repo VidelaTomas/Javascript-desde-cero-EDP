@@ -2,6 +2,7 @@
 
 // Crea una variable con el nombre "num", este debe guardar un tipo dato numérico.
 // Tu codigo 👇:
+num = 4
 
 //_________________________________________
 
