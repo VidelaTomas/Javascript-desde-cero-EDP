@@ -15,7 +15,7 @@ function verificarNumero(numero){
         return "Es cero";
     }
 }
-
+ 
 var numero = prompt("ingrese numero");
 console.log(verificarNumero(numero));
 
