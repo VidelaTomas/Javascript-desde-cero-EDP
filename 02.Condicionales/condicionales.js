@@ -4,6 +4,16 @@
 // Pidele al usuario que ingrese su edad ( usando prompt() ), y en caso que tenga 18 años o más imprima un mensaje indicandole que puede inscribirse.
 // caso contrario se le indica que no puede inscribirse y la razón.
 // Tu codigo 👇:
+function ingreseEdad(usuario){
+
+        if (usuario >= 18) {
+        return document.write("Puede inscribirse al curso");
+} else {
+        return document.write("Este curso es solo para mayores de 18 años.");
+}
+}
+var usuario = prompt("ingrese su edad")
+console.log(ingreseEdad(usuario));
 
 
 //_________________________________________
@@ -17,7 +27,20 @@
 // Calificación entre 60 y 69: "Suficiente"
 // Calificación menor a 60: "Insuficiente"
 // Tu codigo 👇:
+function calificacion(nota){
 
+if (nota >= 90) {
+        return document.write("Excelente");
+} else if (nota >= 70 || nota <= 89) {
+        return document.write("Bueno");
+} else if (nota >= 60 || nota <= 69) {
+        return document.write("Suficiente");
+} else {
+        return document.write("Insuficiente");
+}
+}
+nota = prompt("ingrese calificación")
+console.log(calificacion(nota))
 
 //_________________________________________
 

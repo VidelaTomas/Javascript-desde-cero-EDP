@@ -18,6 +18,8 @@
 // Ejercicio N° 1:
 // Un estudiante obtuvo calificaciones de 8, 7 y 9 en tres exámenes respectivamente. ¿Cuál es el promedio de sus calificaciones?
 // Tu codigo 👇:
+document.write("su promedio en calificacionbes es : ")
+document.write((8 + 7 + 9)/3)
 
 
 //_________________________________________
@@ -26,6 +28,9 @@
 // Ejercicio N° 2:
 // Juan quiere saber cuántas letras tiene su nombre. ¿Cuál es la longitud del nombre "Juan"?
 // Tu codigo 👇:
+var nombre = "JUAN"
+document.write("Longitud de JUAN es: ")
+document.write(nombre.length)
 
 
 //_________________________________________
@@ -34,6 +39,8 @@
 // Ejercicio N° 3:
 // Si una distancia se mide en metros y se desea conocer su equivalencia en pies, donde 1 metro equivale a 3.281 pies, ¿cuántos pies son 10 metros?
 // Tu codigo 👇:
+document.write("equivalencia en pies es : ")
+document.write(10*3.281)
 
 
 //_________________________________________
@@ -42,6 +49,10 @@
 // Ejercicio N° 4:
 // Un producto tiene un precio original de $100. Si hay un descuento del 20%, ¿cuál es el precio final del producto después del descuento?
 // Tu codigo 👇:
+document.write("Precio final con el descuento: " )
+precio = 100
+descuento = 0.20 // lo paso decimal para que me de el resultado logico del descuento.
+document.write(precio - (descuento * precio))
 
 
 //_________________________________________
@@ -54,8 +65,9 @@
 // Pidele al usuario que ingrese su Nombre y Apellido - luego devuelve por consola un saludo de bienvenida concatenando su nombre y apellido.
 // Ejemplo: Lionel Messi -> Bienvenido Lionel Messi 
 // Tu codigo 👇:
-
-
+ let nombreyapellido = prompt("ingrese su nombre y apellido")
+ let saludo = "Bienvenido/a " + nombreyapellido;
+ console.log(saludo);
 //_________________________________________
 
 
